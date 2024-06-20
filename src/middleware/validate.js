@@ -1,7 +1,8 @@
 const validate = (schema) => (req, res, next) => {
     const { error } = schema.validate(req.body);
 
-    if (error) 
+    if (error) {
+        // Create an empty variable to store error messages
         const errorMessages = {};
         // Iterate to extract error paths
         error.details.forEach((detail) => {
