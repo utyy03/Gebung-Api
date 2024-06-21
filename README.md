@@ -43,7 +43,8 @@ To install and run the API, follow these steps:
     ```
 
 ## API Endpoints
-For complete documentation and API usage, please see [Postman documentation]([https://www.getpostman.com/collections/<collection_ID>](https://documenter.getpostman.com/view/34754286/2sA3XV7eMB)).
+For complete documentation and API usage, please see [Dokumentasi Postman](https://documenter.getpostman.com/view/34754286/2sA3XV7eMB)
+
 ### Register
 - **Endpoint**: `/register`
 - **Method**: `POST`
